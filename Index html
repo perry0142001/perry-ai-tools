@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perry AI Tools</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f4ff;
+  color: #20243a;
+}
+header {
+  background: #4338ca;
+  color: white;
+  text-align: center;
+  padding: 25px 12px;
+}
+header h1 { margin: 0 0 8px; }
+.container {
+  max-width: 850px;
+  margin: auto;
+  padding: 18px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 14px;
+}
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px 10px;
+  text-align: center;
+  box-shadow: 0 3px 12px #00000012;
+}
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #4338ca;
+  color: white;
+  padding: 9px 13px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #555;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>✨ Perry AI Tools</h1>
+  <p>Your Free AI Tools Hub</p>
+</header>
+<main class="container">
+  <h2>Explore AI Tools</h2>
+  <div class="grid">
+    <div class="card">🤖<h3>AI Chat</h3>
+      <a href="https://chatgpt.com/">Open</a></div>
+    <div class="card">🎨<h3>AI Images</h3>
+      <a href="https://www.bing.com/images/create">Open</a></div>
+    <div class="card">🖼️<h3>Photo Editor</h3>
+      <a href="https://www.photopea.com/">Open</a></div>
+    <div class="card">🎬<h3>AI Video</h3>
+      <a href="https://www.capcut.com/">Open</a></div>
+    <div class="card">✍️<h3>Gujarati Writer</h3>
+      <a href="https://chatgpt.com/">Open</a></div>
+    <div class="card">📄<h3>PDF Tools</h3>
+      <a href="https://www.ilovepdf.com/">Open</a></div>
+    <div class="card">🧹<h3>Background Remover</h3>
+      <a href="https://www.remove.bg/">Open</a></div>
+    <div class="card">🔍<h3>AI Search</h3>
+      <a href="https://www.perplexity.ai/">Open</a></div>
+  </div>
+</main>
+<footer>© Perry AI Tools | Made for Everyone</footer>
+</body>
+</html>
